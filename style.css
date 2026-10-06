@@ -1,0 +1,36 @@
+body{
+ background-color: rgb(152, 140, 163);
+}
+
+fieldset{
+    text-align: center;
+    margin: 9rem;
+    font-size: large;
+    border-radius: 20px;
+    border: solid, 4px, white;
+}
+
+legend{
+    border: dashed orange 2px;
+}
+
+.button{
+    padding: 20px;
+    border: black solid 2px;
+    background-color: green;
+    box-shadow: 20px;
+    transition: 0.9s;
+    border-radius: 20%;
+
+ 
+
+}
+
+.button:hover{
+    background-color:gray;
+    transform: scale(1.1);
+    margin: 10 rem;
+    cursor:pointer;
+}
+
+
